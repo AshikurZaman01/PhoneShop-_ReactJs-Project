@@ -11,6 +11,7 @@ const Phone = ({ phone }) => {
                     <div>
                         <img src={image} alt="" />
                     </div>
+                    
                     <div>
                         <h1 className="text-center font-bold text-gray-500 text-xl">{name}</h1>
                     </div>
