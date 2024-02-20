@@ -5,7 +5,7 @@ const Navbar = () => {
     return (
         <div className="py-5">
 
-            <div className="flex justify-between items-center">
+            <div className="flex justify-between items-center shadow shadow-pink-300 p-5">
                 <div>
                     <h1 className="text-4xl font-bold text-purple-500">Phone <span className="text-pink-600">Bazar</span></h1>
                 </div>
