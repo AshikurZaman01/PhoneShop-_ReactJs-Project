@@ -13,7 +13,7 @@ const PhoneDetails = () => {
 
 
     return (
-        <div>
+        <div className=" h-[80vh] flex items-center">
 
             <div className="grid grid-cols-3 ">
 
@@ -24,24 +24,24 @@ const PhoneDetails = () => {
                 </section>
 
                 <section className="col-span-2 flex items-center">
-                   
+
                     <div className="space-y-4">
                         <h1 className="text-2xl font-bold">{name}</h1>
                         <p className="text-xl font-medium text-gray-500">{description}</p>
 
                         <h4 className="text-2xl  font-medium text-pink-700"><span className="font-bold mr-1 text-black">$</span>{price}</h4>
-                    <div className="divider"></div>
+                        <div className="divider"></div>
 
-                    <div>
-                        <button className="btn btn-md w-full flex justify-start bg-purple-700">Add to Cart</button>
+                        <div>
+                            <button className="btn btn-md w-full flex justify-start bg-purple-700">Add to Cart</button>
+                        </div>
+
                     </div>
 
-                    </div>
 
 
-                    
 
-                   
+
                 </section>
             </div>
 
